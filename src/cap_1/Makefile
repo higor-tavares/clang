@@ -1,4 +1,4 @@
 CC = gcc
 FLAGS =  I.
-all:
+exemplo:
 	${CC} -${FLAGS} exemplo.c aritmetica.c -o exemploBin
