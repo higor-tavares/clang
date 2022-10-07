@@ -37,3 +37,11 @@ build-ponteiro:
 	${CC} ${PON}/ponteiro.c -o ${OUT}/ponteiro
 run-ponteiro:
 	${OUT}/ponteiro
+build-comparacoes: 
+	${CC} ${PON}/comparacoes.c -o ${OUT}/comparacoes
+run-comparacoes:
+	${OUT}/comparacoes
+build-mem-access: 
+	${CC} ${PON}/mem-access.c -o ${OUT}/mem-access
+run-mem-access:
+	${OUT}/mem-access
