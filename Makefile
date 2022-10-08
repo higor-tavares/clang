@@ -62,3 +62,7 @@ build-malloc:
 	${CC} ${ALD}/malloc.c -o ${OUT}/malloc
 run-malloc:
 	${OUT}/malloc
+build-calloc: 
+	${CC} ${ALD}/calloc.c -o ${OUT}/calloc
+run-calloc:
+	${OUT}/calloc
