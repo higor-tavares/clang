@@ -4,6 +4,7 @@ OUT = ./out
 SRC = ./src
 FUN = ${SRC}/functions
 PON = ${SRC}/ponteiros
+ALD = ${SRC}/alocacao_dinamica
 #Functions
 build-void: 
 	${CC} ${FUN}/void.c -o ${OUT}/void
@@ -45,3 +46,19 @@ build-mem-access:
 	${CC} ${PON}/mem-access.c -o ${OUT}/mem-access
 run-mem-access:
 	${OUT}/mem-access
+build-void2: 
+	${CC} ${PON}/void.c -o ${OUT}/void
+run-void2:
+	${OUT}/void
+build-arrays: 
+	${CC} ${PON}/arrays.c -o ${OUT}/arrays
+run-arrays:
+	${OUT}/arrays
+build-sizeof: 
+	${CC} ${ALD}/sizeof.c -o ${OUT}/sizeof
+run-sizeof:
+	${OUT}/sizeof
+build-malloc: 
+	${CC} ${ALD}/malloc.c -o ${OUT}/malloc
+run-malloc:
+	${OUT}/malloc
