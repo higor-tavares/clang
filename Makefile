@@ -66,3 +66,11 @@ build-calloc:
 	${CC} ${ALD}/calloc.c -o ${OUT}/calloc
 run-calloc:
 	${OUT}/calloc
+build-realloc: 
+	${CC} ${ALD}/realloc.c -o ${OUT}/realloc
+run-realloc:
+	${OUT}/realloc
+build-free: 
+	${CC} ${ALD}/free.c -o ${OUT}/free
+run-free:
+	${OUT}/free
