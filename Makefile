@@ -5,6 +5,7 @@ SRC = ./src
 FUN = ${SRC}/functions
 PON = ${SRC}/ponteiros
 ALD = ${SRC}/alocacao_dinamica
+ARQ = ${SRC}/arquivos
 #Functions
 build-void: 
 	${CC} ${FUN}/void.c -o ${OUT}/void
@@ -74,3 +75,11 @@ build-free:
 	${CC} ${ALD}/free.c -o ${OUT}/free
 run-free:
 	${OUT}/free
+build-matriz2: 
+	${CC} ${ALD}/matriz.c -o ${OUT}/matriz2
+run-matriz2:
+	${OUT}/matriz2
+build-write: 
+	${CC} ${ARQ}/write.c -o ${OUT}/write
+run-write:
+	${OUT}/write
