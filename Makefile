@@ -83,3 +83,7 @@ build-write:
 	${CC} ${ARQ}/write.c -o ${OUT}/write
 run-write:
 	${OUT}/write
+build-fputc: 
+	${CC} ${ARQ}/fputc.c -o ${OUT}/fputc
+run-fputc:
+	${OUT}/fputc
