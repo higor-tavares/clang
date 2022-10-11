@@ -25,3 +25,6 @@ int main(){
     fclose(fp);
     return 0;
 }
+/*
+Existe tambem o comando fflush que forca a escrita no arquivo
+*/

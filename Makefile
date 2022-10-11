@@ -87,3 +87,15 @@ build-fputc:
 	${CC} ${ARQ}/fputc.c -o ${OUT}/fputc
 run-fputc:
 	${OUT}/fputc
+build-fgetc: 
+	${CC} ${ARQ}/fgetc.c -o ${OUT}/fgetc
+run-fgetc:
+	${OUT}/fgetc
+build-feof: 
+	${CC} ${ARQ}/feof.c -o ${OUT}/feof
+run-feof:
+	${OUT}/feof
+build-ftell: 
+	${CC} ${ARQ}/ftell.c -o ${OUT}/ftell
+run-ftell:
+	${OUT}/ftell
