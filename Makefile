@@ -99,3 +99,9 @@ build-ftell:
 	${CC} ${ARQ}/ftell.c -o ${OUT}/ftell
 run-ftell:
 	${OUT}/ftell
+fgets:
+	${CC} ${ARQ}/fgets.c -o ${OUT}/fgets
+fwrite:
+	${CC} ${ARQ}/fwrite.c -o ${OUT}/fwrite
+fread:
+	${CC} ${ARQ}/fread.c -o ${OUT}/fread
