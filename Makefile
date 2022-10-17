@@ -121,3 +121,5 @@ fseek:
 	${CC} ${ARQ}/fseek.c -o ${OUT}/fseek
 ferror:
 	${CC} ${ARQ}/ferror.c -o ${OUT}/ferror
+remove:
+	${CC} ${ARQ}/remove.c -o ${OUT}/remove
