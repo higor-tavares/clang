@@ -113,3 +113,11 @@ structwrite:
 	${CC} ${ARQ}/structwrite.c -o ${OUT}/structwrite
 structread:
 	${CC} ${ARQ}/structread.c -o ${OUT}/structread
+fprintf:
+	${CC} ${ARQ}/fprintf.c -o ${OUT}/fprintf
+fscanf:
+	${CC} ${ARQ}/fscanf.c -o ${OUT}/fscanf
+fseek:
+	${CC} ${ARQ}/fseek.c -o ${OUT}/fseek
+ferror:
+	${CC} ${ARQ}/ferror.c -o ${OUT}/ferror
