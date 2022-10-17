@@ -9,7 +9,7 @@ typedef struct{
 Person  getPerson(){
     FILE *file;
     Person p;
-    file = fopen("database", "rb");
+    file = fopen("database/person1", "rb");
     if(file == NULL){
         printf("ERROR\n");
         exit(1);

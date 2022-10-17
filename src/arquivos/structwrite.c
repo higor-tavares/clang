@@ -8,7 +8,7 @@ typedef struct{
 
 void savePerson(Person *p){
     FILE *file;
-    file = fopen("database", "wb");
+    file = fopen("database/person1", "wb");
     if(file == NULL){
         printf("ERROR\n");
         exit(1);
