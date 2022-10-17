@@ -105,3 +105,11 @@ fwrite:
 	${CC} ${ARQ}/fwrite.c -o ${OUT}/fwrite
 fread:
 	${CC} ${ARQ}/fread.c -o ${OUT}/fread
+writesize:
+	${CC} ${ARQ}/writesize.c -o ${OUT}/writesize
+readsize:
+	${CC} ${ARQ}/readsize.c -o ${OUT}/readsize
+structwrite:
+	${CC} ${ARQ}/structwrite.c -o ${OUT}/structwrite
+structread:
+	${CC} ${ARQ}/structread.c -o ${OUT}/structread
