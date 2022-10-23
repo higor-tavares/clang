@@ -6,6 +6,7 @@ FUN = ${SRC}/functions
 PON = ${SRC}/ponteiros
 ALD = ${SRC}/alocacao_dinamica
 ARQ = ${SRC}/arquivos
+AVC = ${SRC}/avancado
 #Functions
 build-void: 
 	${CC} ${FUN}/void.c -o ${OUT}/void
@@ -123,3 +124,9 @@ ferror:
 	${CC} ${ARQ}/ferror.c -o ${OUT}/ferror
 remove:
 	${CC} ${ARQ}/remove.c -o ${OUT}/remove
+locale:
+	${CC} ${AVC}/setlocale.c -o ${OUT}/locale
+wchar:
+	${CC} ${AVC}/wchar.c -o ${OUT}/wchar
+armazenamento:
+	${CC} ${AVC}/armazenamento.c -o ${OUT}/armazenamento
