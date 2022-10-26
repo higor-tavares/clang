@@ -130,3 +130,5 @@ wchar:
 	${CC} ${AVC}/wchar.c -o ${OUT}/wchar
 armazenamento:
 	${CC} ${AVC}/armazenamento.c -o ${OUT}/armazenamento
+regex:
+	${CC} ${AVC}/regex.c -o ${OUT}/regex
