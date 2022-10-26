@@ -17,7 +17,7 @@ void print_result(int return_value, char * value){
   }
 }
 
-void verify(char * cpf){
+void validate(char * cpf){
     regex_t regex;
     int match;
 
@@ -34,8 +34,8 @@ int main(){
     char cpf1[15] = "506.743.070-20";
     char cpf2[15] = "69134156054";
     char cpf3[15] = "60421107";
-    verify(cpf1);
-    verify(cpf2);
-    verify(cpf3);
+    validate(cpf1);
+    validate(cpf2);
+    validate(cpf3);
     return 0;
 }
